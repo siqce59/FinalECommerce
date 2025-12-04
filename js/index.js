@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         /*tarjeta.classList.add("card"); fijarse pq es esta o la de arriba para el ccs */
 
         const img = document.createElement("img");
-        img.src = `../${producto.img}`;
+        img.src = `./${producto.img}`;
         img.alt = producto.descripcion;
 
         const titulo = document.createElement("h3");
